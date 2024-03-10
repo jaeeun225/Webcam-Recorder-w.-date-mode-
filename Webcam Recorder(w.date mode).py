@@ -12,6 +12,7 @@ video_writer = None
 
 record_mode = False
 date_mode = False
+
 record_count = 0
 
 while video_capture.isOpened():
