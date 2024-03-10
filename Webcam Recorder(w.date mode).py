@@ -4,7 +4,7 @@ from datetime import datetime
 video_capture = cv.VideoCapture(0)
 
 if not video_capture.isOpened():
-    print('Cannot open webcam.')
+    print('Cannot open webcam..')
     exit()
 
 fourcc = cv.VideoWriter_fourcc(*'XVID')
